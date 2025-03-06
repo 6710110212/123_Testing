@@ -1,6 +1,6 @@
 import os
 
-def funnyString(s):
+def funny_string(s):
      # Write your code here
     n = len(s)
     
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     for q_itr in range(q):
         s = input()
 
-        result = funnyString(s)
+        result = funny_string(s)
 
         fptr.write(result + '\n')
 

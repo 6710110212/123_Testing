@@ -1,5 +1,5 @@
 import unittest
-from coe_6710110212 import funny_string
+from coe_6710110212.funny_string import funny_string
 
 class TestFunnyString(unittest.TestCase):
     
@@ -26,7 +26,7 @@ class TestFunnyString(unittest.TestCase):
     def test_string_carbonara(self):
         s = "carbonara"
         result = funny_string(s)
-        self.assertEqual(result, "Funny")  
+        self.assertEqual(result, "Not Funny")  
 
     def test_string_with_numbers(self):
         s = "m4a1"
